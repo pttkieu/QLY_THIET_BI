@@ -139,7 +139,7 @@ Partial Class frm_main
         Me.RibbonPanel4.Location = New System.Drawing.Point(0, 57)
         Me.RibbonPanel4.Name = "RibbonPanel4"
         Me.RibbonPanel4.Padding = New System.Windows.Forms.Padding(3, 0, 3, 3)
-        Me.RibbonPanel4.Size = New System.Drawing.Size(976, 99)
+        Me.RibbonPanel4.Size = New System.Drawing.Size(1090, 99)
         '
         '
         '
@@ -215,6 +215,10 @@ Partial Class frm_main
         '
         'ButtonItem16
         '
+        Me.ButtonItem16.Image = CType(resources.GetObject("ButtonItem16.Image"), System.Drawing.Image)
+        Me.ButtonItem16.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem16.ImagePaddingHorizontal = 50
+        Me.ButtonItem16.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem16.Name = "ButtonItem16"
         Me.ButtonItem16.SubItemsExpandWidth = 14
         Me.ButtonItem16.Text = "Sự cố"
@@ -228,12 +232,12 @@ Partial Class frm_main
         Me.RibbonControl1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
         Me.RibbonControl1.CaptionVisible = True
         Me.RibbonControl1.Controls.Add(Me.RibbonPanel1)
-        Me.RibbonControl1.Controls.Add(Me.RibbonPanel6)
-        Me.RibbonControl1.Controls.Add(Me.RibbonPanel7)
         Me.RibbonControl1.Controls.Add(Me.RibbonPanel2)
         Me.RibbonControl1.Controls.Add(Me.RibbonPanel5)
-        Me.RibbonControl1.Controls.Add(Me.RibbonPanel3)
         Me.RibbonControl1.Controls.Add(Me.RibbonPanel4)
+        Me.RibbonControl1.Controls.Add(Me.RibbonPanel3)
+        Me.RibbonControl1.Controls.Add(Me.RibbonPanel7)
+        Me.RibbonControl1.Controls.Add(Me.RibbonPanel6)
         Me.RibbonControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.RibbonControl1.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.RibbonTabItem1, Me.RibbonTabItem2, Me.RibbonTabItem5, Me.RibbonTabItem3, Me.RibbonTabItem4, Me.RibbonTabItem6, Me.RibbonTabItem7})
         Me.RibbonControl1.KeyTipsFont = New System.Drawing.Font("Tahoma", 7.0!)
@@ -241,7 +245,7 @@ Partial Class frm_main
         Me.RibbonControl1.Name = "RibbonControl1"
         Me.RibbonControl1.Padding = New System.Windows.Forms.Padding(0, 0, 0, 2)
         Me.RibbonControl1.QuickToolbarItems.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.QatCustomizeItem1})
-        Me.RibbonControl1.Size = New System.Drawing.Size(976, 158)
+        Me.RibbonControl1.Size = New System.Drawing.Size(1090, 158)
         Me.RibbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.RibbonControl1.SystemText.MaximizeRibbonText = "&Maximize the Ribbon"
         Me.RibbonControl1.SystemText.MinimizeRibbonText = "Mi&nimize the Ribbon"
@@ -273,7 +277,7 @@ Partial Class frm_main
         Me.RibbonPanel1.Location = New System.Drawing.Point(0, 57)
         Me.RibbonPanel1.Name = "RibbonPanel1"
         Me.RibbonPanel1.Padding = New System.Windows.Forms.Padding(3, 0, 3, 3)
-        Me.RibbonPanel1.Size = New System.Drawing.Size(976, 99)
+        Me.RibbonPanel1.Size = New System.Drawing.Size(1090, 99)
         '
         '
         '
@@ -307,12 +311,11 @@ Partial Class frm_main
         Me.RibbonBar13.ContainerControlProcessDialogKey = True
         Me.RibbonBar13.Dock = System.Windows.Forms.DockStyle.Left
         Me.RibbonBar13.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.ButtonItem35})
-        Me.RibbonBar13.Location = New System.Drawing.Point(476, 0)
+        Me.RibbonBar13.Location = New System.Drawing.Point(546, 0)
         Me.RibbonBar13.Name = "RibbonBar13"
         Me.RibbonBar13.Size = New System.Drawing.Size(100, 96)
         Me.RibbonBar13.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.RibbonBar13.TabIndex = 3
-        Me.RibbonBar13.Text = "RibbonBar13"
         '
         '
         '
@@ -326,6 +329,10 @@ Partial Class frm_main
         '
         'ButtonItem35
         '
+        Me.ButtonItem35.Image = CType(resources.GetObject("ButtonItem35.Image"), System.Drawing.Image)
+        Me.ButtonItem35.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem35.ImagePaddingHorizontal = 50
+        Me.ButtonItem35.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem35.Name = "ButtonItem35"
         Me.ButtonItem35.SubItemsExpandWidth = 14
         Me.ButtonItem35.Text = "Tùy chọn"
@@ -346,7 +353,7 @@ Partial Class frm_main
         Me.RibbonBar12.ContainerControlProcessDialogKey = True
         Me.RibbonBar12.Dock = System.Windows.Forms.DockStyle.Left
         Me.RibbonBar12.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.ButtonItem33, Me.ButtonItem34})
-        Me.RibbonBar12.Location = New System.Drawing.Point(230, 0)
+        Me.RibbonBar12.Location = New System.Drawing.Point(300, 0)
         Me.RibbonBar12.Name = "RibbonBar12"
         Me.RibbonBar12.Size = New System.Drawing.Size(246, 96)
         Me.RibbonBar12.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
@@ -365,12 +372,20 @@ Partial Class frm_main
         '
         'ButtonItem33
         '
+        Me.ButtonItem33.Image = CType(resources.GetObject("ButtonItem33.Image"), System.Drawing.Image)
+        Me.ButtonItem33.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem33.ImagePaddingHorizontal = 50
+        Me.ButtonItem33.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem33.Name = "ButtonItem33"
         Me.ButtonItem33.SubItemsExpandWidth = 14
         Me.ButtonItem33.Text = "Danh mục quyền"
         '
         'ButtonItem34
         '
+        Me.ButtonItem34.Image = CType(resources.GetObject("ButtonItem34.Image"), System.Drawing.Image)
+        Me.ButtonItem34.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem34.ImagePaddingHorizontal = 50
+        Me.ButtonItem34.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem34.Name = "ButtonItem34"
         Me.ButtonItem34.SubItemsExpandWidth = 14
         Me.ButtonItem34.Text = "Phân quyền"
@@ -393,7 +408,7 @@ Partial Class frm_main
         Me.RibbonBar11.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.ButtonItem30, Me.ButtonItem32})
         Me.RibbonBar11.Location = New System.Drawing.Point(103, 0)
         Me.RibbonBar11.Name = "RibbonBar11"
-        Me.RibbonBar11.Size = New System.Drawing.Size(127, 96)
+        Me.RibbonBar11.Size = New System.Drawing.Size(197, 96)
         Me.RibbonBar11.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.RibbonBar11.TabIndex = 1
         Me.RibbonBar11.Text = "Quản lý người dùng"
@@ -410,12 +425,20 @@ Partial Class frm_main
         '
         'ButtonItem30
         '
+        Me.ButtonItem30.Image = CType(resources.GetObject("ButtonItem30.Image"), System.Drawing.Image)
+        Me.ButtonItem30.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem30.ImagePaddingHorizontal = 50
+        Me.ButtonItem30.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem30.Name = "ButtonItem30"
         Me.ButtonItem30.SubItemsExpandWidth = 14
         Me.ButtonItem30.Text = "Thêm"
         '
         'ButtonItem32
         '
+        Me.ButtonItem32.Image = CType(resources.GetObject("ButtonItem32.Image"), System.Drawing.Image)
+        Me.ButtonItem32.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem32.ImagePaddingHorizontal = 50
+        Me.ButtonItem32.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem32.Name = "ButtonItem32"
         Me.ButtonItem32.SubItemsExpandWidth = 14
         Me.ButtonItem32.Text = "Cập nhật"
@@ -472,7 +495,7 @@ Partial Class frm_main
         Me.RibbonPanel6.Location = New System.Drawing.Point(0, 57)
         Me.RibbonPanel6.Name = "RibbonPanel6"
         Me.RibbonPanel6.Padding = New System.Windows.Forms.Padding(3, 0, 3, 3)
-        Me.RibbonPanel6.Size = New System.Drawing.Size(976, 99)
+        Me.RibbonPanel6.Size = New System.Drawing.Size(1090, 99)
         '
         '
         '
@@ -563,6 +586,7 @@ Partial Class frm_main
         Me.ButtonItem6.ImagePaddingHorizontal = 55
         Me.ButtonItem6.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem6.Name = "ButtonItem6"
+        Me.ButtonItem6.PopupSide = DevComponents.DotNetBar.ePopupSide.Left
         Me.ButtonItem6.RibbonWordWrap = False
         Me.ButtonItem6.SubItemsExpandWidth = 14
         Me.ButtonItem6.Text = "Thanh lý"
@@ -624,24 +648,41 @@ Partial Class frm_main
         '
         'ButtonItem36
         '
+        Me.ButtonItem36.Image = CType(resources.GetObject("ButtonItem36.Image"), System.Drawing.Image)
+        Me.ButtonItem36.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem36.ImagePaddingHorizontal = 50
+        Me.ButtonItem36.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem36.Name = "ButtonItem36"
         Me.ButtonItem36.SubItemsExpandWidth = 14
         Me.ButtonItem36.Text = "Thời gian mua"
         '
         'ButtonItem37
         '
+        Me.ButtonItem37.Image = CType(resources.GetObject("ButtonItem37.Image"), System.Drawing.Image)
+        Me.ButtonItem37.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem37.ImageListSizeSelection = DevComponents.DotNetBar.eButtonImageListSelection.Medium
+        Me.ButtonItem37.ImagePaddingHorizontal = 50
+        Me.ButtonItem37.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem37.Name = "ButtonItem37"
         Me.ButtonItem37.SubItemsExpandWidth = 14
         Me.ButtonItem37.Text = "Tình trạng"
         '
         'ButtonItem38
         '
+        Me.ButtonItem38.Image = CType(resources.GetObject("ButtonItem38.Image"), System.Drawing.Image)
+        Me.ButtonItem38.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem38.ImagePaddingHorizontal = 70
+        Me.ButtonItem38.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem38.Name = "ButtonItem38"
         Me.ButtonItem38.SubItemsExpandWidth = 14
         Me.ButtonItem38.Text = "Lịch sử sử dụng"
         '
         'ButtonItem40
         '
+        Me.ButtonItem40.Image = CType(resources.GetObject("ButtonItem40.Image"), System.Drawing.Image)
+        Me.ButtonItem40.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem40.ImagePaddingHorizontal = 50
+        Me.ButtonItem40.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem40.Name = "ButtonItem40"
         Me.ButtonItem40.SubItemsExpandWidth = 14
         Me.ButtonItem40.Text = "Điều chuyển"
@@ -654,7 +695,7 @@ Partial Class frm_main
         Me.RibbonPanel7.Location = New System.Drawing.Point(0, 57)
         Me.RibbonPanel7.Name = "RibbonPanel7"
         Me.RibbonPanel7.Padding = New System.Windows.Forms.Padding(3, 0, 3, 3)
-        Me.RibbonPanel7.Size = New System.Drawing.Size(976, 99)
+        Me.RibbonPanel7.Size = New System.Drawing.Size(1090, 99)
         '
         '
         '
@@ -691,10 +732,10 @@ Partial Class frm_main
         Me.RibbonBar14.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.ButtonItem39})
         Me.RibbonBar14.Location = New System.Drawing.Point(3, 0)
         Me.RibbonBar14.Name = "RibbonBar14"
-        Me.RibbonBar14.Size = New System.Drawing.Size(100, 96)
+        Me.RibbonBar14.Size = New System.Drawing.Size(178, 96)
         Me.RibbonBar14.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.RibbonBar14.TabIndex = 0
-        Me.RibbonBar14.Text = "RibbonBar14"
+        Me.RibbonBar14.Text = "Tra cứu thông tin"
         '
         '
         '
@@ -708,6 +749,10 @@ Partial Class frm_main
         '
         'ButtonItem39
         '
+        Me.ButtonItem39.Image = CType(resources.GetObject("ButtonItem39.Image"), System.Drawing.Image)
+        Me.ButtonItem39.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem39.ImagePaddingHorizontal = 50
+        Me.ButtonItem39.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem39.Name = "ButtonItem39"
         Me.ButtonItem39.SubItemsExpandWidth = 14
         Me.ButtonItem39.Text = "Tra cứu"
@@ -722,7 +767,7 @@ Partial Class frm_main
         Me.RibbonPanel2.Location = New System.Drawing.Point(0, 57)
         Me.RibbonPanel2.Name = "RibbonPanel2"
         Me.RibbonPanel2.Padding = New System.Windows.Forms.Padding(3, 0, 3, 3)
-        Me.RibbonPanel2.Size = New System.Drawing.Size(976, 99)
+        Me.RibbonPanel2.Size = New System.Drawing.Size(1090, 99)
         '
         '
         '
@@ -757,7 +802,7 @@ Partial Class frm_main
         Me.RibbonBar10.ContainerControlProcessDialogKey = True
         Me.RibbonBar10.Dock = System.Windows.Forms.DockStyle.Left
         Me.RibbonBar10.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.ButtonItem27, Me.ButtonItem28, Me.ButtonItem29})
-        Me.RibbonBar10.Location = New System.Drawing.Point(496, 0)
+        Me.RibbonBar10.Location = New System.Drawing.Point(571, 0)
         Me.RibbonBar10.Name = "RibbonBar10"
         Me.RibbonBar10.Size = New System.Drawing.Size(289, 96)
         Me.RibbonBar10.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
@@ -776,18 +821,30 @@ Partial Class frm_main
         '
         'ButtonItem27
         '
+        Me.ButtonItem27.Image = CType(resources.GetObject("ButtonItem27.Image"), System.Drawing.Image)
+        Me.ButtonItem27.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem27.ImagePaddingHorizontal = 50
+        Me.ButtonItem27.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem27.Name = "ButtonItem27"
         Me.ButtonItem27.SubItemsExpandWidth = 14
         Me.ButtonItem27.Text = "Thêm"
         '
         'ButtonItem28
         '
+        Me.ButtonItem28.Image = CType(resources.GetObject("ButtonItem28.Image"), System.Drawing.Image)
+        Me.ButtonItem28.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem28.ImagePaddingHorizontal = 50
+        Me.ButtonItem28.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem28.Name = "ButtonItem28"
         Me.ButtonItem28.SubItemsExpandWidth = 14
         Me.ButtonItem28.Text = "Xóa"
         '
         'ButtonItem29
         '
+        Me.ButtonItem29.Image = CType(resources.GetObject("ButtonItem29.Image"), System.Drawing.Image)
+        Me.ButtonItem29.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem29.ImagePaddingHorizontal = 50
+        Me.ButtonItem29.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem29.Name = "ButtonItem29"
         Me.ButtonItem29.SubItemsExpandWidth = 14
         Me.ButtonItem29.Text = "Sửa"
@@ -810,7 +867,7 @@ Partial Class frm_main
         Me.RibbonBar9.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.ButtonItem1, Me.ButtonItem22, Me.ButtonItem23})
         Me.RibbonBar9.Location = New System.Drawing.Point(289, 0)
         Me.RibbonBar9.Name = "RibbonBar9"
-        Me.RibbonBar9.Size = New System.Drawing.Size(207, 96)
+        Me.RibbonBar9.Size = New System.Drawing.Size(282, 96)
         Me.RibbonBar9.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
         Me.RibbonBar9.TabIndex = 1
         Me.RibbonBar9.Text = "Đơn vị sử dụng"
@@ -827,18 +884,30 @@ Partial Class frm_main
         '
         'ButtonItem1
         '
+        Me.ButtonItem1.Image = CType(resources.GetObject("ButtonItem1.Image"), System.Drawing.Image)
+        Me.ButtonItem1.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem1.ImagePaddingHorizontal = 50
+        Me.ButtonItem1.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem1.Name = "ButtonItem1"
         Me.ButtonItem1.SubItemsExpandWidth = 14
         Me.ButtonItem1.Text = "Thêm"
         '
         'ButtonItem22
         '
+        Me.ButtonItem22.Image = CType(resources.GetObject("ButtonItem22.Image"), System.Drawing.Image)
+        Me.ButtonItem22.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem22.ImagePaddingHorizontal = 50
+        Me.ButtonItem22.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem22.Name = "ButtonItem22"
         Me.ButtonItem22.SubItemsExpandWidth = 14
         Me.ButtonItem22.Text = "Xóa"
         '
         'ButtonItem23
         '
+        Me.ButtonItem23.Image = CType(resources.GetObject("ButtonItem23.Image"), System.Drawing.Image)
+        Me.ButtonItem23.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem23.ImagePaddingHorizontal = 50
+        Me.ButtonItem23.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem23.Name = "ButtonItem23"
         Me.ButtonItem23.SubItemsExpandWidth = 14
         Me.ButtonItem23.Text = "Sửa"
@@ -917,7 +986,7 @@ Partial Class frm_main
         Me.RibbonPanel5.Location = New System.Drawing.Point(0, 57)
         Me.RibbonPanel5.Name = "RibbonPanel5"
         Me.RibbonPanel5.Padding = New System.Windows.Forms.Padding(3, 0, 3, 3)
-        Me.RibbonPanel5.Size = New System.Drawing.Size(976, 99)
+        Me.RibbonPanel5.Size = New System.Drawing.Size(1090, 99)
         '
         '
         '
@@ -1000,7 +1069,7 @@ Partial Class frm_main
         Me.RibbonPanel3.Location = New System.Drawing.Point(0, 57)
         Me.RibbonPanel3.Name = "RibbonPanel3"
         Me.RibbonPanel3.Padding = New System.Windows.Forms.Padding(3, 0, 3, 3)
-        Me.RibbonPanel3.Size = New System.Drawing.Size(976, 99)
+        Me.RibbonPanel3.Size = New System.Drawing.Size(1090, 99)
         '
         '
         '
@@ -1142,18 +1211,30 @@ Partial Class frm_main
         '
         'ButtonItem24
         '
+        Me.ButtonItem24.Image = CType(resources.GetObject("ButtonItem24.Image"), System.Drawing.Image)
+        Me.ButtonItem24.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem24.ImagePaddingHorizontal = 50
+        Me.ButtonItem24.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem24.Name = "ButtonItem24"
         Me.ButtonItem24.SubItemsExpandWidth = 14
         Me.ButtonItem24.Text = "Khấu hao"
         '
         'ButtonItem25
         '
+        Me.ButtonItem25.Image = CType(resources.GetObject("ButtonItem25.Image"), System.Drawing.Image)
+        Me.ButtonItem25.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem25.ImagePaddingHorizontal = 50
+        Me.ButtonItem25.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem25.Name = "ButtonItem25"
         Me.ButtonItem25.SubItemsExpandWidth = 14
         Me.ButtonItem25.Text = "Thanh lý"
         '
         'ButtonItem26
         '
+        Me.ButtonItem26.Image = CType(resources.GetObject("ButtonItem26.Image"), System.Drawing.Image)
+        Me.ButtonItem26.ImageFixedSize = New System.Drawing.Size(35, 35)
+        Me.ButtonItem26.ImagePaddingHorizontal = 50
+        Me.ButtonItem26.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top
         Me.ButtonItem26.Name = "ButtonItem26"
         Me.ButtonItem26.SubItemsExpandWidth = 14
         Me.ButtonItem26.Text = "Điều chuyển"
@@ -1241,7 +1322,7 @@ Partial Class frm_main
         Me.DockSite4.DocumentDockContainer = New DevComponents.DotNetBar.DocumentDockContainer
         Me.DockSite4.Location = New System.Drawing.Point(5, 405)
         Me.DockSite4.Name = "DockSite4"
-        Me.DockSite4.Size = New System.Drawing.Size(976, 0)
+        Me.DockSite4.Size = New System.Drawing.Size(1090, 0)
         Me.DockSite4.TabIndex = 14
         Me.DockSite4.TabStop = False
         '
@@ -1250,10 +1331,10 @@ Partial Class frm_main
         Me.DockSite10.AccessibleRole = System.Windows.Forms.AccessibleRole.Window
         Me.DockSite10.Controls.Add(Me.Bar1)
         Me.DockSite10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DockSite10.DocumentDockContainer = New DevComponents.DotNetBar.DocumentDockContainer(New DevComponents.DotNetBar.DocumentBaseContainer() {CType(New DevComponents.DotNetBar.DocumentBarContainer(Me.Bar1, 976, 246), DevComponents.DotNetBar.DocumentBaseContainer)}, DevComponents.DotNetBar.eOrientation.Horizontal)
+        Me.DockSite10.DocumentDockContainer = New DevComponents.DotNetBar.DocumentDockContainer(New DevComponents.DotNetBar.DocumentBaseContainer() {CType(New DevComponents.DotNetBar.DocumentBarContainer(Me.Bar1, 1090, 246), DevComponents.DotNetBar.DocumentBaseContainer)}, DevComponents.DotNetBar.eOrientation.Horizontal)
         Me.DockSite10.Location = New System.Drawing.Point(5, 159)
         Me.DockSite10.Name = "DockSite10"
-        Me.DockSite10.Size = New System.Drawing.Size(976, 246)
+        Me.DockSite10.Size = New System.Drawing.Size(1090, 246)
         Me.DockSite10.TabIndex = 20
         Me.DockSite10.TabStop = False
         '
@@ -1280,7 +1361,7 @@ Partial Class frm_main
         Me.Bar1.Location = New System.Drawing.Point(0, 0)
         Me.Bar1.Name = "Bar1"
         Me.Bar1.SelectedDockTab = 0
-        Me.Bar1.Size = New System.Drawing.Size(976, 246)
+        Me.Bar1.Size = New System.Drawing.Size(1090, 246)
         Me.Bar1.Stretch = True
         Me.Bar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2003
         Me.Bar1.TabIndex = 0
@@ -1290,7 +1371,7 @@ Partial Class frm_main
         '
         Me.PanelDockContainer1.Location = New System.Drawing.Point(3, 28)
         Me.PanelDockContainer1.Name = "PanelDockContainer1"
-        Me.PanelDockContainer1.Size = New System.Drawing.Size(970, 215)
+        Me.PanelDockContainer1.Size = New System.Drawing.Size(1084, 215)
         Me.PanelDockContainer1.Style.Alignment = System.Drawing.StringAlignment.Center
         Me.PanelDockContainer1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground
         Me.PanelDockContainer1.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder
@@ -1322,7 +1403,7 @@ Partial Class frm_main
         Me.DockSite2.AccessibleRole = System.Windows.Forms.AccessibleRole.Window
         Me.DockSite2.Dock = System.Windows.Forms.DockStyle.Right
         Me.DockSite2.DocumentDockContainer = New DevComponents.DotNetBar.DocumentDockContainer
-        Me.DockSite2.Location = New System.Drawing.Point(981, 159)
+        Me.DockSite2.Location = New System.Drawing.Point(1095, 159)
         Me.DockSite2.Name = "DockSite2"
         Me.DockSite2.Size = New System.Drawing.Size(0, 246)
         Me.DockSite2.TabIndex = 12
@@ -1334,7 +1415,7 @@ Partial Class frm_main
         Me.DockSite8.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.DockSite8.Location = New System.Drawing.Point(5, 405)
         Me.DockSite8.Name = "DockSite8"
-        Me.DockSite8.Size = New System.Drawing.Size(976, 0)
+        Me.DockSite8.Size = New System.Drawing.Size(1090, 0)
         Me.DockSite8.TabIndex = 18
         Me.DockSite8.TabStop = False
         '
@@ -1352,7 +1433,7 @@ Partial Class frm_main
         '
         Me.DockSite6.AccessibleRole = System.Windows.Forms.AccessibleRole.Window
         Me.DockSite6.Dock = System.Windows.Forms.DockStyle.Right
-        Me.DockSite6.Location = New System.Drawing.Point(981, 1)
+        Me.DockSite6.Location = New System.Drawing.Point(1095, 1)
         Me.DockSite6.Name = "DockSite6"
         Me.DockSite6.Size = New System.Drawing.Size(0, 404)
         Me.DockSite6.TabIndex = 16
@@ -1364,7 +1445,7 @@ Partial Class frm_main
         Me.DockSite7.Dock = System.Windows.Forms.DockStyle.Top
         Me.DockSite7.Location = New System.Drawing.Point(5, 1)
         Me.DockSite7.Name = "DockSite7"
-        Me.DockSite7.Size = New System.Drawing.Size(976, 0)
+        Me.DockSite7.Size = New System.Drawing.Size(1090, 0)
         Me.DockSite7.TabIndex = 17
         Me.DockSite7.TabStop = False
         '
@@ -1375,7 +1456,7 @@ Partial Class frm_main
         Me.DockSite3.DocumentDockContainer = New DevComponents.DotNetBar.DocumentDockContainer
         Me.DockSite3.Location = New System.Drawing.Point(5, 1)
         Me.DockSite3.Name = "DockSite3"
-        Me.DockSite3.Size = New System.Drawing.Size(976, 0)
+        Me.DockSite3.Size = New System.Drawing.Size(1090, 0)
         Me.DockSite3.TabIndex = 13
         Me.DockSite3.TabStop = False
         '
@@ -1386,7 +1467,7 @@ Partial Class frm_main
         Me.DockSite9.DocumentDockContainer = New DevComponents.DotNetBar.DocumentDockContainer
         Me.DockSite9.Location = New System.Drawing.Point(5, 159)
         Me.DockSite9.Name = "DockSite9"
-        Me.DockSite9.Size = New System.Drawing.Size(976, 246)
+        Me.DockSite9.Size = New System.Drawing.Size(1090, 246)
         Me.DockSite9.TabIndex = 19
         Me.DockSite9.TabStop = False
         '
@@ -1394,7 +1475,7 @@ Partial Class frm_main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(986, 407)
+        Me.ClientSize = New System.Drawing.Size(1100, 407)
         Me.Controls.Add(Me.DockSite10)
         Me.Controls.Add(Me.DockSite9)
         Me.Controls.Add(Me.DockSite2)
